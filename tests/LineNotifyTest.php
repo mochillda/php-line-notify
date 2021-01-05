@@ -9,7 +9,7 @@ require_once __DIR__ . '/../src/LineNotify.php';
 class LineNotifyTest extends PHPUnit_Framework_TestCase {
 
   private $LineNotify;
-  private $token = 'this_is_a_token';
+  private $token = 'T4YdTbXO3tHaed3L5Uf3z8Udf5qSOQGgaWFDxUPS7Qm';
 
   public function __construct() {
     $this->LineNotify = new KS\Line\LineNotify($this->token);
