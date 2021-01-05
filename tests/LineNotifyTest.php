@@ -21,7 +21,7 @@ class LineNotifyTest extends PHPUnit_Framework_TestCase {
   }
 
   public function testSetToken() {
-    $token = 'new_token';
+    $token = 'T4YdTbXO3tHaed3L5Uf3z8Udf5qSOQGgaWFDxUPS7Qm';
     $this->LineNotify->setToken($token);
     $result = $this->LineNotify->getToken();
     $this->assertEquals($token, $result);
